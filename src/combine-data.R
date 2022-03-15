@@ -52,7 +52,7 @@ write.table(x = plot_df,
             sep = ",",
             row.names = FALSE)
 
-sink(file = "out/package-versions.txt")
+sink(file = "out/package-versions-1.txt")
 sessionInfo()
 sink()
 
